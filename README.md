@@ -27,8 +27,18 @@ pkg update && pkg upgrade -y
 ```bash
 pkg install root-repo -y
 ```
-
-
+```bash
+pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
+```
+```bash
+git clone https://github.com/anbuinfosec/wipwn
+```
+```bash
+cd wipwn
+```
+```bash
+chmod +x main.py
+```
 
 #### Help : ```sudo python main --help```
 #### Example : ```sudo python main.py -i wlan0 -K```
