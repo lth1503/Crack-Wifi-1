@@ -46,6 +46,10 @@ sudo python main --help
 ```
 #### Lệnh sử dụng :
 ```bash
+cd wipwn
+```
+
+```bash
 sudo python main.py -i wlan0 -K
 ```
 
