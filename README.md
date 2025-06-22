@@ -40,32 +40,32 @@ cd wipwn
 chmod +x main.py
 ```
 
-#### Help : ```sudo python main --help```
-#### Example : ```sudo python main.py -i wlan0 -K```
+#### lệnh hỗ trợ : ```sudo python main --help```
+#### Lệnh sử dụng : ```sudo python main.py -i wlan0 -K```
 
 #### Note: 
-+ **First turn off your Wifi.**
-+ **Turn on Hotspot.**
-+ **Turn on Location.**
-- Show avaliable networks and start Pixie Dust attack on a specified network.
++ **Đầu tiên hãy tắt Wifi của bạn (bắt buộc) .**
++ **Bật Điểm phát sóng (không bắt buộc) .**
++ **Bật Vị trí.**
+- Hiển thị các mạng khả dụng và bắt đầu tấn công Pixie Dust trên một mạng đã chỉ định.
 - ```sudo python main.py -i wlan0 -K```
 - ```bash wipwn.sh```
-- - Start Pixie Dust attack on a specified BSSID:
+- - Bắt đầu tấn công Pixie Dust vào BSSID được chỉ định:
 `sudo python main.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
-- Launch online WPS bruteforce with the specified first half of the PIN:
+- Khởi chạy WPS bruteforce trực tuyến với nửa đầu tiên được chỉ định của mã PIN:
 - `sudo python main.py -i wlan0 -b 50:0F:F5:B0:08:05 -B -p 1234`
-### Troubleshooting
-**"Device or resource busy (-16)" - Turn on Wifi and Then Turn off Wifi.**
+### Xử lý sự cố
+**"Thiết bị hoặc tài nguyên đang bận (-16)" - Bật Wifi rồi tắt Wifi.**
 
 ---
 
-## Screenshots
+## Ảnh chụp màn hình
 
 | Banner | Cracked | Saved Data | config.txt | 
 | :---: | :---: | :---: | :---: |
 | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/1.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/2.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/3.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/4.jpg) |
 
 
-### ❤️ Thanks for stars and forks
-[![Stargazers repo roster for @anbuinfosec/wipwn](https://reporoster.com/stars/dark/anbuinfosec/wipwn)](https://github.com/anbuinfosec/wipwn/stargazers)
+### ❤️ Cảm ơn vì những ngôi sao và forks
+[![Stargazers repo danh sách cho @anbuinfosec/wipwn](https://reporoster.com/stars/dark/anbuinfosec/wipwn)](https://github.com/anbuinfosec/wipwn/stargazers)
 [![Forkers repo roster for @anbuinfosec/wipwn](https://reporoster.com/forks/dark/anbuinfosec/wipwn)](https://github.com/anbuinfosec/wipwn/network/members)
