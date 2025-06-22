@@ -15,7 +15,7 @@
 pkg update && pkg upgrade -y
 pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
-git clone https://github.com/anbuinfosec/wipwn
+git clone https://github.com/haidayne/wipwn
 cd wipwn
 chmod +x main.py
 ```
@@ -31,7 +31,7 @@ pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
 ```
 ```bash
-git clone https://github.com/anbuinfosec/wipwn
+git clone https://github.com/haidayne/wipwn
 ```
 ```bash
 cd wipwn
@@ -40,16 +40,24 @@ cd wipwn
 chmod +x main.py
 ```
 
-#### lệnh hỗ trợ : ```sudo python main --help```
-#### Lệnh sử dụng : ```sudo python main.py -i wlan0 -K```
+#### lệnh hỗ trợ :
+```bash
+sudo python main --help
+```
+#### Lệnh sử dụng :
+```bash
+sudo python main.py -i wlan0 -K
+```
 
 #### Note: 
 + **Đầu tiên hãy tắt Wifi của bạn (bắt buộc) .**
 + **Bật Điểm phát sóng (không bắt buộc) .**
 + **Bật Vị trí.**
 - Hiển thị các mạng khả dụng và bắt đầu tấn công Pixie Dust trên một mạng đã chỉ định.
-- ```sudo python main.py -i wlan0 -K```
-- ```bash wipwn.sh```
+```bash
+sudo python main.py -i wlan0 -K
+```
+-```bash wipwn.sh```
 - - Bắt đầu tấn công Pixie Dust vào BSSID được chỉ định:
 `sudo python main.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
 - Khởi chạy WPS bruteforce trực tuyến với nửa đầu tiên được chỉ định của mã PIN:
