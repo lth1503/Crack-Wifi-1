@@ -19,9 +19,13 @@ git clone https://github.com/anbuinfosec/wipwn
 cd wipwn
 chmod +x main.py
 ```
+# Nhập thủ công :
 
 ```bash
 pkg update && pkg upgrade -y
+```
+```bash
+pkg install root-repo -y
 ```
 
 
