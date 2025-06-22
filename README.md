@@ -2,14 +2,14 @@
 
 ![Logo](assets/image.png)
 
-### Hack wifi using Termux (rooted)
+### Quét và xem mật khẩu wifi bằng termux (Root).
     
-- [Requirements]
+- [Yêu cầu]
   - [Python](https://www.python.org)
   - [Pixiewps](https://www.kali.org/tools/pixiewps/)
   - [Wpa-supplicant](https://wiki.archlinux.org/title/wpa_supplicant)
  
-### Installation :
+### Cài đặt :
 
 ```bash
 pkg update && pkg upgrade -y
@@ -19,6 +19,12 @@ git clone https://github.com/anbuinfosec/wipwn
 cd wipwn
 chmod +x main.py
 ```
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+
 
 #### Help : ```sudo python main --help```
 #### Example : ```sudo python main.py -i wlan0 -K```
