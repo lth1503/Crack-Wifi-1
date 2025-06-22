@@ -53,14 +53,17 @@ cd wipwn
 sudo python main.py -i wlan0 -K
 ```
 
-#### Note: 
-+ **Đầu tiên hãy tắt Wifi của bạn (bắt buộc) .**
-+ **Bật Điểm phát sóng (không bắt buộc) .**
-+ **Bật Vị trí.**
+#### Ghi chú :
+• Màu xanh là tỉ lệ 80% thành công với router đã căn chỉnh wps
+• Màu đỏ là 10%
+• Màu trắng là 50%
+• Màu vàng là 60%
+
 - Hiển thị các mạng khả dụng và bắt đầu tấn công Pixie Dust trên một mạng đã chỉ định.
 ```bash
 sudo python main.py -i wlan0 -K
 ```
+
 ```bash
 wipwn.sh
 ```
