@@ -56,6 +56,7 @@ sudo python main.py -i wlan0 -K
 
 #### Ghi chú :
 • Tắt mạng, tắt điểm truy cập, bật vị trí
+
 • Màu xanh là tỉ lệ 80% thành công với router đã căn chỉnh wps
 
 • Màu đỏ là 10%
