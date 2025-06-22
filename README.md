@@ -19,7 +19,8 @@ git clone https://github.com/haidayne/wipwn
 cd wipwn
 chmod +x main.py
 ```
-# Nhập thủ công :
+# Nhập thủ công và lưu ý:
+(Khi mà nó hỏi Y hoặc N tức là nó cần khai báo để lấy cấu hình sử dụng bạn chọn Y thì sẽ tốt hơn và N cũng được không ảnh hưởng gì)
 
 ```bash
 pkg update && pkg upgrade -y
