@@ -15,7 +15,7 @@
 pkg update && pkg upgrade -y
 pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
-git clone https://github.com/haidayne/wipwn
+git clone https://github.com/lth1503/wipwn
 cd wipwn
 chmod +x main.py
 ```
@@ -32,7 +32,7 @@ pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
 ```
 ```bash
-git clone https://github.com/haidayne/wipwn
+git clone https://github.com/lth1503/wipwn
 ```
 ```bash
 cd wipwn
@@ -61,7 +61,7 @@ sudo python main.py -i wlan0 -K
 
 • Màu đỏ là 10%
 
-• Màu trắng là 50%
+• Màu trắng là <50%
 
 • Màu vàng là 60%
 
@@ -93,6 +93,6 @@ sudo python main.py -i wlan0 -b 50:0F:F5:B0:08:05 -B -p 1234
 | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/1.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/2.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/3.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/4.jpg) |
 
 
-### ❤️ Cảm ơn vì những ngôi sao và forks
+### ❤️ Cảm ơn vì 🌟 và forks
 [![Stargazers repo danh sách cho @anbuinfosec/wipwn](https://reporoster.com/stars/dark/anbuinfosec/wipwn)](https://github.com/anbuinfosec/wipwn/stargazers)
 [![Forkers repo roster for @anbuinfosec/wipwn](https://reporoster.com/forks/dark/anbuinfosec/wipwn)](https://github.com/anbuinfosec/wipwn/network/members)
