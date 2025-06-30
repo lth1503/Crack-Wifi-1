@@ -1,8 +1,8 @@
-# WIPWN
+# Crack Wifi 
 
 ![Logo](assets/image.png)
 
-### Quét và xem mật khẩu wifi bằng termux (Root).
+### Scan và check pass wifi thông qua termux (Root).
     
 - [Yêu cầu]
   - [Python](https://www.python.org)
@@ -20,7 +20,7 @@ cd Crack-Wifi-1
 chmod +x main.py
 ```
 # Nhập thủ công và lưu ý:
-(Khi mà nó hỏi Y hoặc N tức là nó cần khai báo để lấy cấu hình sử dụng bạn chọn Y thì sẽ tốt hơn và N cũng được không ảnh hưởng gì)
+(Termux hỏi Y/N, chọn Y)
 
 ```bash
 pkg update && pkg upgrade -y
