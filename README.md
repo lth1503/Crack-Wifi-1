@@ -15,7 +15,7 @@
 pkg update && pkg upgrade -y
 pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
-git clone https://github.com/lth1503/wipwn
+git clone https://github.com/lth1503/Crack-Wifi-1.git
 cd wipwn
 chmod +x main.py
 ```
@@ -32,7 +32,7 @@ pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
 ```
 ```bash
-git clone https://github.com/lth1503/wipwn
+git clone https://github.com/lth1503/Crack-Wifi-1.git
 ```
 ```bash
 cd wipwn
