@@ -610,7 +610,7 @@ class Companion:
         atexit.register(self.cleanup)
 
     def __init_wpa_supplicant(self):
-        print(f'{info} Running wpa_supplicant…')
+        print(f'{info} Dang chay wpa_supplicant…')
         cmd = 'wpa_supplicant -K -d -Dnl80211,wext,hostapd,wired -i{} -c{}'.format(self.interface, self.tempconf)
         self.wpas = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE,
                                      stderr=subprocess.STDOUT, encoding='utf-8', errors='replace')
@@ -1171,13 +1171,13 @@ class WiFiScanner:
             return text
 
         if self.vuln_list:
-            print('Network marks: {1} {0} {2} {0} {3}'.format(
+            print('Loai wifi: {1} {0} {2} {0} {3}'.format(
                 '|',
-                colored('Possibly vulnerable', color='green'),
-                colored('WPS locked', color='red'),
-                colored('Already stored', color='yellow')
+                colored('Kha thi', color='green'),
+                colored('Bi khoa WPS', color='red'),
+                colored('Da luu', color='yellow')
             ))
-        print('Networks list:')
+        print('Danh sach Wifi:')
         print('{:<4} {:<18} {:<25} {:<8} {:<4} {:<27} {:<}'.format(
             '#', 'BSSID', 'ESSID', 'Sec.', 'PWR', 'WSC device name', 'WSC model'))
 
@@ -1209,20 +1209,20 @@ class WiFiScanner:
         os.system('clear')
         banner = f"""
         {yellow}╔═════════════════════════════════════╗
-        {yellow}║{reset}              {green}WIPWN{reset}                  {yellow}║{reset}
-        {yellow}║{reset}          VERSION: {green}2.0.1{reset}             {yellow}║{reset}
-        {yellow}║{reset} TOOL: {green}OneShot 0.0.2 (c) 2017 rofl0r{reset} {yellow}║{reset}
-        {yellow}║{reset}        AUTHOR: {green}Mohammad Alamin{reset}      {yellow}║{reset}
-        {yellow}║{reset}   GITHUB: {green}github.com/anbuinfosec{reset}    {yellow}║{reset}
+        {yellow}║{reset}              {green}Crack Wifi{reset}                  {yellow}║{reset}
+        {yellow}║{reset}          Phien ban: {green}2.0.1 mod {reset}             {yellow}║{reset}
+        {yellow}║{reset} Tool: {green}OneShot 0.0.2 (c) 2017 rofl0r{reset} {yellow}║{reset}
+        {yellow}║{reset}        Tac gia: {green} Vietnamese by lth1503 {reset}      {yellow}║{reset}
+        {yellow}║{reset}   github: {green}github.com/lth1503 {reset}    {yellow}║{reset}
         {yellow}╚═════════════════════════════════════╝{reset}"""
         print (banner)
         networks = self.iw_scanner()
         if not networks:
-            print(f'{err} No WPS networks found.')
+            print(f'{err} Khong tim thay ket noi WPS.')
             return
         while 1:
             try:
-                networkNo = input(f'{ask} Select target (press Enter to refresh): ')
+                networkNo = input(f'{ask} Chon wifi( an enter de tai lai) : ')
                 if networkNo.lower() in ('r', '0', ''):
                     return self.prompt_network()
                 elif int(networkNo) in networks.keys():
