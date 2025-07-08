@@ -1,1 +1,1 @@
-cd $HOME/wipwn && sudo python main.py -i wlan0 -K
+cd $HOME/wipwn && sudo python test.py -i wlan0 -K
