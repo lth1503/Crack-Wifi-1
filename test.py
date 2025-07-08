@@ -1209,11 +1209,11 @@ class WiFiScanner:
         os.system('clear')
         banner = f"""
         {yellow}╔═════════════════════════════════════╗
-        {yellow}║{reset}              {green}Crack Wifi{reset}{yellow}║{reset}
-        {yellow}║{reset}          Phien ban: {green}2.0.1 mod {reset}{yellow}║{reset}
+        {yellow}║{reset}              {green}Crack Wifi             {reset}{yellow}║{reset}
+        {yellow}║{reset}          Phien ban: {green}2.0.1 mod       {reset}{yellow}║{reset}
         {yellow}║{reset} Tool: {green}OneShot 0.0.2 (c) 2017 rofl0r{reset} {yellow}║{reset}
-        {yellow}║{reset} Tac gia: {green}Vietnamese by lth1503{reset}{yellow}║{reset}
-        {yellow}║{reset} github: {green}github.com/lth1503{reset}{yellow}║{reset}
+        {yellow}║{reset} Tac gia: {green}Vietnamese by lth1503      {reset}{yellow}║{reset}
+        {yellow}║{reset} github: {green}github.com/lth1503          {reset}{yellow}║{reset}
         {yellow}╚═════════════════════════════════════╝{reset}"""
         print (banner)
         networks = self.iw_scanner()
