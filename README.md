@@ -66,11 +66,6 @@ sudo python lth.py -i wlan0 -K
 • Màu vàng là 50%
 
 
-## Ảnh chụp màn hình
-
-| Banner | Cracked | Saved Data | config.txt | 
-| :---: | :---: | :---: | :---: |
-| ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/1.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/2.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/3.jpg) | ![image](https://raw.githubusercontent.com/anbuinfosec/anbuinfosec/refs/heads/main/assets/wipwn/4.jpg) |
 
 
 ### ❤️ Cảm ơn vì 🌟 và forks
