@@ -17,7 +17,7 @@ pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw openssl -y
 git clone https://github.com/lth1503/Crack-Wifi-1
 cd Crack-Wifi-1
-chmod +x main.py
+chmod +x lth.py
 ```
 # Nhập thủ công và lưu ý:
 (Termux hỏi Y/N, chọn Y)
@@ -38,7 +38,7 @@ git clone https://github.com/lth1503/Crack-Wifi-1
 cd Crack-Wifi-1
 ```
 ```bash
-chmod +x main.py
+chmod +x lth.py
 ```
 
 #### lệnh hỗ trợ :
@@ -51,7 +51,7 @@ cd Crack-Wifi-1
 ```
 
 ```bash
-sudo python main.py -i wlan0 -K
+sudo python lth.py -i wlan0 -K
 ```
 
 #### Ghi chú :
