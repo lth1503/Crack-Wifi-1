@@ -3,6 +3,8 @@
 ![Logo](assets/image.png)
 
 ### Scan và check pass wifi thông qua termux (Root).
+
+Lưu ý : Tool này nhằm mục đích giáo dục, thử nghiệm. Tuyệt đối không sử dụng vào các mục đích vi phạm Pháp luật, tôi sẽ không chịu trách nhiệm về hậu quả mà bạn gây ra.
     
 - [Yêu cầu]
   - [Python](https://www.python.org)
