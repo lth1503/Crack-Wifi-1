@@ -56,6 +56,9 @@ cd Crack-Wifi-1
 sudo python lth.py -i wlan0 -K
 ```
 
+```bash
+bash lth.sh
+```
 #### Ghi chú :
 • Tắt mạng, tắt điểm truy cập, bật vị trí
 
